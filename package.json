@@ -1,0 +1,89 @@
+{
+    "author": "jeffmarsh@mac.com",
+    "dependencies": {},
+    "keywords": [],
+    "name": "hellocat",
+    "pebble": {
+        "capabilities": [
+            "location"
+        ],
+        "displayName": "HelloCat",
+        "enableMultiJS": true,
+        "messageKeys": [
+            "TEMPERATURE",
+            "CONDITIONS"
+        ],
+        "projectType": "native",
+        "resources": {
+            "media": [
+                {
+                    "file": "images/BatteryEmpty",
+                    "name": "BATTERY_EMPTY",
+                    "targetPlatforms": null,
+                    "type": "bitmap"
+                },
+                {
+                    "file": "images/BatteryCharge",
+                    "name": "BATTERY_CHARGE",
+                    "targetPlatforms": null,
+                    "type": "bitmap"
+                },
+                {
+                    "file": "images/Battery25",
+                    "name": "BATTERY_25",
+                    "targetPlatforms": null,
+                    "type": "bitmap"
+                },
+                {
+                    "file": "images/Battery50",
+                    "name": "BATTERY_50",
+                    "targetPlatforms": null,
+                    "type": "bitmap"
+                },
+                {
+                    "file": "images/Battery75",
+                    "name": "BATTERY_75",
+                    "targetPlatforms": null,
+                    "type": "bitmap"
+                },
+                {
+                    "file": "images/Battery100",
+                    "name": "BATTERY_100",
+                    "targetPlatforms": null,
+                    "type": "bitmap"
+                },
+                {
+                    "characterRegex": "[0-9.:A-Z]",
+                    "file": "fonts/IntellectaSmall",
+                    "name": "INTELLECTA_24",
+                    "targetPlatforms": null,
+                    "type": "font"
+                },
+                {
+                    "characterRegex": "[0-9.:A-Za-z]",
+                    "file": "fonts/intellecta",
+                    "name": "INTELLECTA_48",
+                    "targetPlatforms": null,
+                    "type": "font"
+                },
+                {
+                    "file": "images/KittyOne",
+                    "menuIcon": true,
+                    "name": "KITTY",
+                    "targetPlatforms": null,
+                    "type": "bitmap"
+                }
+            ]
+        },
+        "sdkVersion": "3",
+        "targetPlatforms": [
+            "aplite",
+            "basalt"
+        ],
+        "uuid": "18d008c9-d0b3-4fd1-b3a3-777044f780a0",
+        "watchapp": {
+            "watchface": true
+        }
+    },
+    "version": "1.0.0"
+}
